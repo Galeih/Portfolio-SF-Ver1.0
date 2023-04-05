@@ -1,0 +1,230 @@
+/* ######### BOULOT DE RAPH ######### */
+@font-face{
+    font-family:"Franklin Gothic Semi Cond hope";
+    src: url("itc-franklin-gothic-lt-demi-compressed.otf")
+}
+body {
+    color:#2b2a28;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+    border-style: ridge;
+    border-width: thin;
+    border-color: lightgray;
+}
+
+p {
+    font-family: calibri;
+    font-size: 16px;
+    font-weight: 20;
+    margin:0;
+    padding: 0;
+}
+
+aside {
+    width: 63.97%;
+    height: ;
+    float: right;
+    background-color: white;
+    padding-top: 4px;
+    box-sizing: border-box;
+}
+.secondaside {
+    padding-left: 15px;
+}
+
+.topleft{
+    width: 36.03%;
+    background-color: greenyellow;
+    margin-bottom: 0;
+}
+
+.bottomleft{
+    width: 288.24px;
+    background-color: white;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    font-size:15px;
+}
+div.bottomleft{
+    padding: 25px;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+
+h2{
+    font-family: franklin gothic demi cond;
+    margin: 10px;
+    margin-left: 0;
+    padding-bottom: 0px;
+    font-size: 21px;
+}
+
+h4{
+    padding-bottom: 4px;
+    margin: 0;
+    font-family: franklin gothic demi cond;
+}
+div{
+    margin-bottom: 10px;
+}
+
+
+/* ######### BOULOT DE TOM #########  */
+
+
+img{
+    float: top;
+    align-self: center;
+}
+
+#a1 {
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+
+
+#cerclenoir {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background: #2b2a28;
+    display: inline-block;
+}
+#cerclegris {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background: lightgray;
+    display: inline-block;
+}
+
+#coupe *{
+    margin-bottom: 0px;
+}
+
+/* ######### BOULOT DE YANNIS######### */
+
+#presentation 
+{
+    background-color: #434b4f;
+    color: white;
+    height: 437px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.Jane
+{
+    position: relative;
+    border-radius: 50%;
+    margin: 5.5%;
+}
+
+#cerclepfp {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto; 
+    width: 170px;
+    height: 170px;
+    border-radius: 90px;
+    background-color: #0dbbd6;
+    
+}
+
+h1
+{
+    margin-top: 0px;
+    text-align: center;
+    font-family: franklin gothic demi cond;
+    font-size: 37px;
+    margin-bottom: 0;
+}
+
+.gliphycon
+{
+    height: 20px;
+    width: 20px;
+    padding-left: 2px;
+    padding-top: 2px;
+    
+}
+
+.maison li
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+.gateau li
+{
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+.oiseau li
+{
+    display: inline-block;
+    padding: 5px;
+}
+
+#cercleblanc {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    background: white;
+    display: inline-block;
+    padding: 2px;
+}
+
+ul{
+    margin-left: -12px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+/* ######### BOULOT DE FLORIAN#########*/
+
+figure {
+		float: left;
+		text-align: center;
+		font-size: smaller;
+		border: ;
+		margin: 0.5em;
+		padding: 0.2em;
+		min-width: 95px;
+    margin-top: 0;
+}
+.New_Tech {
+	width : 40px;
+	height : 40px;
+}
+.Running {
+	width : 40px;
+	height : 40px;
+}
+.Photography {
+	width : 40px;
+	height : 40px;
+}
+
+
+
+footer
+{
+    padding-top: 200px;
+    background-color: #434b4f;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px
+
+}
+
+main{
+    padding-bottom: 80px;
+}

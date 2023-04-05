@@ -1,0 +1,13 @@
+SAUVAGE Florian BTS1
+
+Parties manquantes :
+
+-la troisième section (mise en page, ajustements, ...)
+-la mise en page générale de la page (responsive, échelle exacte à la maquette, ...)
+
+Temps requis estimé :
+
+- 1h30 à 2h
+
+
+
