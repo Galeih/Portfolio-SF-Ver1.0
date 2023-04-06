@@ -249,7 +249,7 @@ nav {
 
 .show_container h1 {
     position: relative;
-    bottom: 5%;
+    bottom: 3%;
     font-family: 'Montserrat', flex sans-serif;
     font-size: 4vw;
     padding: 30px;
@@ -263,7 +263,6 @@ nav {
 }
 .showcasepic img{
     border-radius: 50%;
-    bottom: 5%;
     width: 15em;
     height: 15em;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.34);
@@ -272,8 +271,13 @@ nav {
         /* Download CV Button */
 
 .download {
-    padding-top: 50px;
+    padding-top: 60px;
     margin: 0 auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+.socials-icons {
+  margin: 30px;
 }
 
 .animated_link {
@@ -401,12 +405,6 @@ nav {
     display: flex;
     height: 100%;
 }
-@media screen and (max-width: 700px) {
-    .p_item1 {
-        display: flex;
-        flex-direction: column;
-    }
-}
 
 .p_item1 {
     display: flex;
@@ -435,11 +433,34 @@ nav {
     font-size: 100%;
     font-weight: 400;
     text-align: justify;
-    padding: 0 30px;
+    padding: 0 20px;
     line-height: 170%;
     margin: 0 auto;
 }
-
+@media screen and (max-width: 700px) {
+  .p_item1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  .perso_project_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .p_item1 p {
+    width: 90%;
+  }
+  .p_item1 img {
+    display: flex;
+    margin: 0 auto;
+  }
+  .personnal_projects {
+    width: 90%;
+  }
+}
 .learn_moreB {
     display: flex;
     justify-content: center;
@@ -520,6 +541,9 @@ nav {
   }
   .container:nth-child(5){
     animation-delay: 4s;
+  }
+  .container:nth-child(6){
+    animation-delay: 5s;
   }
   
   .text-box {
